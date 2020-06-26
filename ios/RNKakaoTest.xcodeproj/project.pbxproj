@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C39C1412493255300962176 /* KakaoCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C39C13D2493255300962176 /* KakaoCommon.framework */; };
-		3C39C1422493255300962176 /* KakaoMessageTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C39C13E2493255300962176 /* KakaoMessageTemplate.framework */; };
-		3C39C1432493255300962176 /* KakaoLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C39C13F2493255300962176 /* KakaoLink.framework */; };
-		3C39C1442493255300962176 /* KakaoOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C39C1402493255300962176 /* KakaoOpenSDK.framework */; };
 		3C39C1602497896000962176 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C39C1512497892A00962176 /* libReact.a */; };
 		3C39C177249A189D00962176 /* React.xcodeproj in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C39C1452497892900962176 /* React.xcodeproj */; };
+		3CB7FB4E24A323DD00F80B57 /* KakaoLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB7FB4A24A323DC00F80B57 /* KakaoLink.framework */; };
+		3CB7FB4F24A323DD00F80B57 /* KakaoCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB7FB4B24A323DC00F80B57 /* KakaoCommon.framework */; };
+		3CB7FB5024A323DD00F80B57 /* KakaoOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB7FB4C24A323DD00F80B57 /* KakaoOpenSDK.framework */; };
+		3CB7FB5124A323DD00F80B57 /* KakaoMessageTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB7FB4D24A323DD00F80B57 /* KakaoMessageTemplate.framework */; };
 		B3E7B58A1CC2AC0600A0062D /* RNKakaoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNKakaoTest.m */; };
 /* End PBXBuildFile section */
 
@@ -89,11 +89,11 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNKakaoTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNKakaoTest.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C39C13D2493255300962176 /* KakaoCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KakaoCommon.framework; path = "../../../../../Desktop/KakaoOpenSDK-1.23.2/KakaoCommon.framework"; sourceTree = "<group>"; };
-		3C39C13E2493255300962176 /* KakaoMessageTemplate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KakaoMessageTemplate.framework; path = "../../../../../Desktop/KakaoOpenSDK-1.23.2/KakaoMessageTemplate.framework"; sourceTree = "<group>"; };
-		3C39C13F2493255300962176 /* KakaoLink.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KakaoLink.framework; path = "../../../../../Desktop/KakaoOpenSDK-1.23.2/KakaoLink.framework"; sourceTree = "<group>"; };
-		3C39C1402493255300962176 /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KakaoOpenSDK.framework; path = "../../../../../Desktop/KakaoOpenSDK-1.23.2/KakaoOpenSDK.framework"; sourceTree = "<group>"; };
 		3C39C1452497892900962176 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		3CB7FB4A24A323DC00F80B57 /* KakaoLink.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoLink.framework; sourceTree = "<group>"; };
+		3CB7FB4B24A323DC00F80B57 /* KakaoCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoCommon.framework; sourceTree = "<group>"; };
+		3CB7FB4C24A323DD00F80B57 /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoOpenSDK.framework; sourceTree = "<group>"; };
+		3CB7FB4D24A323DD00F80B57 /* KakaoMessageTemplate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoMessageTemplate.framework; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RNKakaoTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNKakaoTest.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNKakaoTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNKakaoTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,12 +103,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C39C177249A189D00962176 /* React.xcodeproj in Frameworks */,
 				3C39C1602497896000962176 /* libReact.a in Frameworks */,
-				3C39C1422493255300962176 /* KakaoMessageTemplate.framework in Frameworks */,
-				3C39C1442493255300962176 /* KakaoOpenSDK.framework in Frameworks */,
-				3C39C1412493255300962176 /* KakaoCommon.framework in Frameworks */,
-				3C39C1432493255300962176 /* KakaoLink.framework in Frameworks */,
+				3CB7FB4F24A323DD00F80B57 /* KakaoCommon.framework in Frameworks */,
+				3CB7FB5024A323DD00F80B57 /* KakaoOpenSDK.framework in Frameworks */,
+				3CB7FB5124A323DD00F80B57 /* KakaoMessageTemplate.framework in Frameworks */,
+				3CB7FB4E24A323DD00F80B57 /* KakaoLink.framework in Frameworks */,
+				3C39C177249A189D00962176 /* React.xcodeproj in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,11 +126,11 @@
 		3C39C13C2493251E00962176 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3CB7FB4B24A323DC00F80B57 /* KakaoCommon.framework */,
+				3CB7FB4A24A323DC00F80B57 /* KakaoLink.framework */,
+				3CB7FB4D24A323DD00F80B57 /* KakaoMessageTemplate.framework */,
+				3CB7FB4C24A323DD00F80B57 /* KakaoOpenSDK.framework */,
 				3C39C1452497892900962176 /* React.xcodeproj */,
-				3C39C13D2493255300962176 /* KakaoCommon.framework */,
-				3C39C13F2493255300962176 /* KakaoLink.framework */,
-				3C39C13E2493255300962176 /* KakaoMessageTemplate.framework */,
-				3C39C1402493255300962176 /* KakaoOpenSDK.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -383,6 +383,10 @@
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/Frameworks",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -402,6 +406,10 @@
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/Frameworks",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
